@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080d18">
+
+    <title>EagleOS Setup</title>
+
+    <link rel="stylesheet" href="css/installer.css">
+
+    <script src="js/installer.js" defer></script>
+    <script src="js/integrity.js" defer></script>
+    <script src="js/license.js" defer></script>
+</head>
+
+<body>
+
+    <div class="installer">
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <div class="brand">
+                    <div class="brand-icon">🦅</div>
+
+                    <div class="brand-text">
+                        <span class="brand-name">EagleOS</span>
+                        <span class="brand-subtitle">OPERATING SYSTEM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-divider"></div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-heading" id="sidebar-heading">
+                    INSTALLATION
+                </div>
+
+                <div class="sidebar-status" id="sidebar-status">
+                    Installation environment
+                </div>
+            </div>
+
+            <nav class="steps" id="installer-steps"></nav>
+
+            <div class="sidebar-bottom">
+                <div class="sidebar-version">
+                    <span>EagleOS Setup</span>
+                    <span>Version 0.2</span>
+                </div>
+            </div>
+
+        </aside>
+
+        <main class="main-content">
+
+            <header class="topbar">
+
+                <div class="topbar-title">
+                    EagleOS Setup
+                </div>
+
+                <div class="topbar-status">
+                    <span class="status-indicator"></span>
+                    Setup Environment
+                </div>
+
+            </header>
+
+            <section class="content-area">
+
+                <div id="screen-content"></div>
+
+            </section>
+
+            <footer class="footer">
+
+                <div class="footer-left">
+                    <span id="footer-status">WELCOME</span>
+                </div>
+
+                <div class="footer-right">
+
+                    <button
+                        type="button"
+                        class="button button-secondary"
+                        id="back-button"
+                        disabled
+                    >
+                        Back
+                    </button>
+
+                    <button
+                        type="button"
+                        class="button button-primary"
+                        id="next-button"
+                    >
+                        Get started
+                    </button>
+
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
